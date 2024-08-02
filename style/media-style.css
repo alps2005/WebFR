@@ -1,0 +1,21 @@
+canvas {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    object-fit: contain;
+    margin-top: -608px;
+    margin-left: 5px;
+}
+.video{
+    margin-top: 20px;
+    border: 5px black solid;
+    border-radius: 25px;
+}
+.image {
+    object-fit: fill;
+    width: 800px;
+    display: flex;
+}

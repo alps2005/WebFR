@@ -1,0 +1,84 @@
+.home-button {
+    width: 200px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin: 0 20px;
+    transition: 1s;
+}
+.home-button:hover {
+    background-color: rgb(237, 210, 40);
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 0 black;
+    transition: 0.5s;
+}
+.home-button:active{
+    opacity: 0.5;
+    color: rgb(237, 210, 40);
+    border-color: rgb(237, 210, 40);
+    box-shadow: 0 0 8px rgb(237, 210, 40);
+    transition: 0s;
+}
+.Emo-button {
+    width: 415px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin: 0 20px;
+    transition: 1s;
+}
+.Emo-button:hover {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 0 black;
+    transition: 0.5s;
+}
+.Emo-button:active{
+    opacity: 0.5;
+    color: rgb(2, 158, 255);
+    border-color: rgb(2, 158, 255);
+    box-shadow: 0 0 8px rgb(2, 158, 255);
+    transition: 0s;
+}
+.Rec-button {
+    width: 275px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin: 0 20px;
+    transition: 1s;
+}
+.Rec-button:hover {
+    background-color: rgb(237, 75, 75);
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 0 black;
+    transition: 0.5s;
+}
+.Rec-button:active{
+    opacity: 0.5;
+    color: rgb(237, 75, 75);
+    border-color: rgb(237, 75, 75);
+    box-shadow: 0 0 8px rgb(237, 75, 75);
+    transition: 0s;
+}
