@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="style/media-style.css">
         <link rel="stylesheet" href="style/body.css">
         <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css' rel='stylesheet'>
     </head>
     <body>
         <header>
@@ -24,7 +25,7 @@
                 <button class="Rec-btn" onclick="showPage('rec')">Reconocimiento facial</button>
             </div>
         </header>
-        <div id="home" class="content">
+        <div id="home" class="content active">
             <figure><img alt="" class="image" src="https://ecotec.edu.ec/content/uploads/2022/08/logo-ecotec-2.png"></figure>
         </div>
         <div id="emo" class="content">
@@ -33,6 +34,12 @@
             </div>
             <div>
                 <button class="Screenshot-Btn">Screenshot</button>
+            </div>
+            <div class="src-preview">
+                <div class="screenshot">
+                    <i id="close-btn" class="fa-solid fa-xmark"></i>
+                    <img src="https://ecotec.edu.ec/content/uploads/2022/08/logo-ecotec-2.png" alt="screenshot">
+                </div>
             </div>
         </div>
         <div id="rec" class="content">

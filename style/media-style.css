@@ -24,3 +24,38 @@ canvas {
     display: flex;
     margin-top: 150px;
 }
+#Screenshot-Btn, .screenshot {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.src-preview {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.65);
+    display: none;
+}
+.src-preview.show{
+    display: block;
+}
+.src-preview .screenshot {
+    background: white;
+    width:70%;
+    aspect-ratio: 16 / 9;
+    top: 50%;
+}
+.screenshot img{
+    width: 100%;
+}
+.screenshot #close-btn{
+    position: absolute;
+    right: -25px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+

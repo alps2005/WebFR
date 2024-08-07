@@ -6,7 +6,7 @@
     border-radius: 10px;
     border: solid black;
     cursor: pointer;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", serif;
     font-size: large;
     margin: 0 20px;
     transition: 1s;
@@ -27,14 +27,14 @@
     transition: 0s;
 }
 .Emo-btn {
-    width: 415px;
     background-color: white;
+    width: 415px;
     color: black;
     padding: 10px;
     border-radius: 10px;
     border: solid black;
     cursor: pointer;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", serif;
     font-size: large;
     margin: 0 20px;
     transition: 1s;
@@ -55,14 +55,14 @@
     transition: 0s;
 }
 .Rec-btn {
-    width: 275px;
     background-color: white;
+    width: 275px;
     color: black;
     padding: 10px;
     border-radius: 10px;
     border: solid black;
     cursor: pointer;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", serif;
     font-size: large;
     margin: 0 20px;
     transition: 1s;
@@ -91,7 +91,7 @@
     border-radius: 10px;
     border: solid black;
     cursor: pointer;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", serif;
     font-size: small;
     margin: 5% 36%;
     transition: 1s;
@@ -127,4 +127,13 @@
     100% {
         opacity: 1;
     }
+}
+
+#close-btn:hover{
+    opacity: 0.5;
+    animation: blink 1s infinite;
+}
+#close-btn:active{
+    opacity: 0.5;
+    animation: blink 1s infinite;
 }
