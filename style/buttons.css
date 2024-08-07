@@ -6,7 +6,7 @@
     border-radius: 10px;
     border: solid black;
     cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "JetBrains Mono";
     font-size: large;
     margin: 0 20px;
     transition: 1s;
@@ -34,7 +34,7 @@
     border-radius: 10px;
     border: solid black;
     cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "JetBrains Mono";
     font-size: large;
     margin: 0 20px;
     transition: 1s;
@@ -62,7 +62,7 @@
     border-radius: 10px;
     border: solid black;
     cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "JetBrains Mono";
     font-size: large;
     margin: 0 20px;
     transition: 1s;
@@ -91,9 +91,9 @@
     border-radius: 10px;
     border: solid black;
     cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "JetBrains Mono";
     font-size: small;
-    margin: 0 20px;
+    margin: 5% 36%;
     transition: 1s;
 }
 
@@ -102,6 +102,29 @@
     color: white;
     border-color: white;
     border-radius: 50px;
-    box-shadow: 10px 10px 0 black;
     transition: 0.5s;
+    animation: blink 1s infinite;
+}
+
+.Screenshot-Btn:active{
+    /*color: rgb(116, 237, 40);*/
+    /*border-color: rgb(116, 237, 40);*/
+    /*box-shadow: 0 0 8px rgb(116, 237, 40);*/
+    background-color: rgb(244, 161, 53);
+    border-color: rgb(244, 161, 53);
+    box-shadow: 0 0 8px rgb(244, 161, 53);
+    transition: 0s;
+    animation: stop;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
