@@ -4,10 +4,10 @@ let interval;
 let canvas;
 
 Promise.all([
-  faceapi.nets.tinyFaceDetector.loadFromUri('/Emo_rec_models'),
-  faceapi.nets.faceLandmark68Net.loadFromUri('/Emo_rec_models'),
-  faceapi.nets.faceRecognitionNet.loadFromUri('/Emo_rec_models'),
-  faceapi.nets.faceExpressionNet.loadFromUri('/Emo_rec_models')
+  faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
+  faceapi.nets.faceLandmark68Net.loadFromUri('/models'),
+  faceapi.nets.faceRecognitionNet.loadFromUri('/models'),
+  faceapi.nets.faceExpressionNet.loadFromUri('/models')
 ]).then(() => console.log('Models loaded'));
 
 function startVideo() {
